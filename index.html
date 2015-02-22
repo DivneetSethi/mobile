@@ -1,0 +1,313 @@
+﻿<!--File: index.html 
+    Author: Divneet Singh Sethi 
+    Website: divneetsethi.github.com/mobile
+    Desription: Pages for mobile site -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <title>Divneet Mobile e-Portfolio</title>
+
+    <!-- CSS Section -->
+    <link href="Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <link href="CSS/myTheme.css" rel="stylesheet" />
+    <link href="CSS/Mobile_StyleSheet.css" rel="stylesheet" />
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+</head>
+<body onload="init();">
+
+    <!-- Home Page Wrapper-->
+    <div data-role="page" id="home">
+        <header data-role="header" style="background-color:white">
+            <table align="center">
+                <tr>
+                    <td>
+                        <h2 style="color:#f7931e">Divneet Sethi<br /> e-Portfolio</h2>
+                    </td>
+                    <td>
+                        <img src="assets/images/logo1.jpg" width="130" />
+                    </td>
+                </tr>
+            </table>
+            <div data-role="navbar" class="ui-btn-a">
+                <ul>
+                    <li><a href="#home" class="ui-btn-active ui-state-persist" data-icon="home" data-transition="fade">Home</a></li>
+                    <li><a href="#about" data-icon="alert" data-transition="fade">About Me</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="fade">Contact Me</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#projects" data-role="button" data-theme="b" data-iconpos="right" data-icon="projecticon">Projects</a></li>
+                    <li><a href="#services" data-role="button" data-theme="b" data-iconpos="right" data-icon="servicesicon">Services</a></li>
+                </ul>
+            </div>
+        </header>
+        <div data-role="content" style="background-color:white">
+            <h3>Welcome to my Portfolio</h3>
+            <h4>Passion for creation invokes imaginion</h4>
+            <p style="text-align:justify">Hello! I'm a graphic designer in Toronto, making the web more enjoyable by creating attractive websites for business and individuals who need an effective online presence.I believe in creating attractive yet simple design that work. Contact me to get in touch.</p>
+            <a href="#about" data-role="button" style="width:40%">Find Out More</a>
+            <hr />
+
+            <!-- Start WOWSlider.com BODY section -->
+            <div id="wowslider-container1">
+                <div class="ws_images">
+                    <ul>
+                        <li><a href="http://thecafeshoppe.in/cafe/index.jsp"> <img src="data1/images/1.jpg" alt="" title="" id="wows1_0" /></a></li>
+                        <li><a href="http://thecafeshoppe.in/cafe/index.jsp"><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1" /></a></li>
+                        <li><a href="http://divneetsethi.github.io/"><img src="data1/images/work1.jpg" alt="work1" title="work1" id="wows1_2" /></a></li>
+                        <li><a href="http://thecafeshoppe.in/cafe/index.jsp"><img src="data1/images/work2.jpg" alt="slider html5" title="work2" id="wows1_3" /></a></li>
+                        <li><a href="https://github.com/COMP313EasySplit/WebServices"><img src="data1/images/work3.jpg" alt="work3" title="work3" id="wows1_4" /></a></li>
+                    </ul>
+                </div>
+                <div class="ws_bullets">
+                    <div>
+                        <a href="#" title=""><span><img src="data1/tooltips/1.jpg" alt="" />1</span></a>
+                        <a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2" />2</span></a>
+                        <a href="#" title="work1"><span><img src="data1/tooltips/work1.jpg" alt="work1" />3</span></a>
+                        <a href="#" title="work2"><span><img src="data1/tooltips/work2.jpg" alt="work2" />4</span></a>
+                        <a href="#" title="work3"><span><img src="data1/tooltips/work3.jpg" alt="work3" />5</span></a>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript" src="engine1/wowslider.js"></script>
+            <script type="text/javascript" src="engine1/script.js"></script>
+            <!-- End WOWSlider.com BODY section -->
+
+            <hr />
+            <h3>Keep Connected...</h3>
+            <table align="center">
+                <tr>
+                    <td><a href="https://ca.linkedin.com/pub/divneet-singh-sethi/80/b21/915"><img src="assets/images/linkedin-logo.png" /></a></td>
+                    <td><a href="https://www.facebook.com/divneet.sethi"><img src="assets/images/facebook-logo.png" /></a></td>
+                </tr>
+            </table>
+            <br /><a href="http://divneetsethi.github.io/?m=desktop" rel="external" style="text-align:center;padding-left:8em" class="ui-btn-a">View Full Site</a>
+        </div>
+        <footer data-role="footer">
+            <h4>&copy;Copyright Divneet Sethi 2015</h4>
+        </footer>
+    </div>
+
+
+    <!-- About Me Page Wrapper-->
+    <div data-role="page" id="about">
+        <header data-role="header" style="background-color:white">
+            <table align="center">
+                <tr>
+                    <td>
+                        <h2>Divneet Sethi<br /> e-Portfolio</h2>
+                    </td>
+                    <td>
+                        <img src="assets/images/logo1.jpg" width="130" />
+                    </td>
+                </tr>
+            </table>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="fade">Home</a></li>
+                    <li><a href="#about" class="ui-btn-active ui-state-persist" data-icon="alert" data-transition="fade">About Me</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="fade">Contact Me</a></li>
+                    <li><a href="" data-icon="back" data-transition="fade" data-rel="back">Back</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#projects" data-role="button" data-theme="b" data-iconpos="right" data-icon="projecticon">Projects</a></li>
+                    <li><a href="#services" data-role="button" data-theme="b" data-iconpos="right" data-icon="servicesicon">Services</a></li>
+                </ul>
+            </div>
+        </header>
+        <div data-role="content" style="background-color:white">
+            <table>
+                <tr>
+                    <td>
+                        <img src="assets/images/pic.jpg" width="150" />
+                    </td>
+                    <td style="padding-left:1em">
+                        <h3>Divneet Sethi</h3>
+                        <h4>Toronto, Canada<<br />C: (416) 918-2906<br />Email: divneet91@yahoo.com</h4>
+                    </td>
+                </tr>
+            </table>
+            <a href="../assets/DivneetSethi_Resume.pdf" data-ajax="false" data-role="button" class="ui-state-persist ui-btn-a">Download Resume</a>
+            <hr />
+            <h3>Innovative development to make life easy</h3>
+            <p style="text-align:justify">
+                developer at heart, I aslo build websites. Passion to learn and grow keep me going and imagination paths the way.
+                I'm looking for oppurtunities that would help me integrate my skills and contribute towards the organizational goals while ensuring my personal growth along the way.
+            </p><hr />
+            <h3>Professional Experience</h3>
+            <p>
+                <b>Junior Programming Analys - Telus</b><br />
+                May 2014 - Present<br />10 months
+            </p>
+            <p>
+                <b>Peer Tutor - Centennial College</b><br />
+                Jan 2015 - Present<br />2 months<br />(Previous: Jan 2014 - April 2014, 4 months)
+            </p>
+            <p>
+                <b>Associate Software Engineer - iGATE</b><br />
+                Dec 2009 - August 2010<br />8 months
+            </p>
+            <hr />
+            <h3>Education</h3>
+            <p>
+                <b>Software Engineering Technology</b><br />Advanced Diploma - 3 years<br />
+                Sept 2013 - Present
+            </p>
+            <p>
+                <b>Bachelor of Computer Applications</b><br />Bachelors - 3 years<br />
+                May 2009 - May 2012
+            </p>
+        </div>
+        <footer data-role="footer">
+            <h4>&copy;Copyright Divneet Sethi 2015</h4>
+        </footer>
+    </div>
+
+
+    <!-- Projects Page Wrapper-->
+    <div data-role="page" id="projects">
+        <header data-role="header" style="background-color:white">
+            <table align="center">
+                <tr>
+                    <td>
+                        <h2>Divneet Sethi<br /> e-Portfolio</h2>
+                    </td>
+                    <td>
+                        <img src="assets/images/logo1.jpg" width="130" />
+                    </td>
+                </tr>
+            </table>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="fade">Home</a></li>
+                    <li><a href="#about" data-icon="alert" data-transition="fade">About Me</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="fade">Contact Me</a></li>
+                    <li><a href="" data-icon="back" data-transition="fade" data-rel="back">Back</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#projects" data-role="button" data-theme="b" data-iconpos="right" data-icon="projecticon" class="ui-btn-active ui-state-persist">Projects</a></li>
+                    <li><a href="#services" data-role="button" data-theme="b" data-iconpos="right" data-icon="servicesicon">Services</a></li>
+                </ul>
+            </div>
+        </header>
+        <div data-role="content" style="background-color:white">
+            <a href="https://github.com/DivneetSethi/Assignment1COMP308/tree/index"><p align="center"><b>Personal Portfolio</b><br /><img src="assets/images/p1.jpg" /><br /><br /></p></a>
+            <a href="http://thecafeshoppe.in/cafe/index.jsp"><p align="center"><b>Cafe Shoppe</b><br /><img src="assets/images/p2.jpg" /><br /><br /></p></a>
+            <a href="https://github.com/COMP313EasySplit/WebServices"><p align="center"><b>Easy Split</b><br /><img src="assets/images/p3.jpg" /><br /><br /></p></a>
+        </div>
+        <footer data-role="footer">
+            <h4>&copy;Copyright Divneet Sethi 2015</h4>
+        </footer>
+    </div>
+
+
+    <!-- Services Page Wrapper-->
+    <div data-role="page" id="services">
+        <header data-role="header" style="background-color:white">
+            <table align="center">
+                <tr>
+                    <td>
+                        <h2>Divneet Sethi<br /> e-Portfolio</h2>
+                    </td>
+                    <td>
+                        <img src="assets/images/logo1.jpg" width="130" />
+                    </td>
+                </tr>
+            </table>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="fade">Home</a></li>
+                    <li><a href="#about" data-icon="alert" data-transition="fade">About Me</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="fade">Contact Me</a></li>
+                    <li><a href="" data-icon="back" data-transition="fade" data-rel="back">Back</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#projects" data-role="button" data-theme="b" data-iconpos="right" data-icon="projecticon">Projects</a></li>
+                    <li><a href="#services" data-role="button" data-theme="b" data-iconpos="right" data-icon="servicesicon" class="ui-btn-active ui-state-persist">Services</a></li>
+                </ul>
+            </div>
+        </header>
+        <div data-role="content" style="background-color:white">
+            <h3 align="justify"> I have mainly had experience working as a developer, but look forward to new oppurtunities that help me expand my horizon.</h3>
+            <br />
+            <h4>Few of my skills include:</h4>
+            <p align="justify">
+                C#, ASP.NET, WebServices, Android Development, JavaScript, HTML5/XML, WPF, SQL, Java.
+                <br />I also have working knowledge of Microsoft Visual Studio, Eclipse,SQL Server, Oracle 11g, Visual Paradigm UML, Crystal Reports.
+            </p>
+            <h4>I offer:</h4>
+            <ul>
+                <li>Software Development</li>
+                <li>Web design and development</li>
+                <li>Analysing requirements and UML Midelling</li>
+            </ul>
+        </div>
+        <footer data-role="footer">
+            <h4>&copy;Copyright Divneet Sethi 2015</h4>
+        </footer>
+    </div>
+
+
+    <!-- Contact Me Page Wrapper-->
+    <div data-role="page" id="contact">
+        <header data-role="header" style="background-color:white">
+            <table align="center">
+                <tr>
+                    <td>
+                        <h2>Divneet Sethi<br /> e-Portfolio</h2>
+                    </td>
+                    <td>
+                        <img src="assets/images/logo1.jpg" width="130" />
+                    </td>
+                </tr>
+            </table>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="fade">Home</a></li>
+                    <li><a href="#about" data-icon="alert" data-transition="fade">About Me</a></li>
+                    <li><a href="#contact" class="ui-btn-active ui-state-persist" data-icon="info" data-transition="fade">Contact Me</a></li>
+                    <li><a href="" data-icon="back" data-transition="fade" data-rel="back">Back</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#projects" data-role="button" data-theme="b" data-iconpos="right" data-icon="projecticon">Projects</a></li>
+                    <li><a href="#services" data-role="button" data-theme="b" data-iconpos="right" data-icon="servicesicon">Services</a></li>
+                </ul>
+            </div>
+        </header>
+        <div data-role="content" style="background-color:white">
+            <h3>Contact Info</h3>
+            <table align="center">
+                <tr>
+                    <td>
+                        <b>Address:</b> 56 Pebblestone Circle, Brampton, ON Canada L6X 4N2<br /><br /><b>Email:</b> divneet91@yahoo.com<br /><br />
+                        <b>Phone:</b><a href="tel:4169182906">(416) 918-2906</a>
+                    </td>
+                </tr>
+            </table>
+            <hr />
+            <h3>Keep Connected...</h3>
+            <table align="center">
+                <tr>
+                    <td><a href="https://ca.linkedin.com/pub/divneet-singh-sethi/80/b21/915"><img src="assets/images/linkedin-logo.png" /></a></td>
+                    <td><a href="https://www.facebook.com/divneet.sethi"><img src="assets/images/facebook-logo.png" /></a></td>
+                </tr>
+            </table>
+        </div>
+        <footer data-role="footer">
+            <h4>&copy;Copyright Divneet Sethi 2015</h4>
+        </footer>
+    </div>
+
+
+    <!-- JavaScript Section -->
+    <script src="Scripts/jquery-1.8.0.min.js"></script>
+    <script src="Scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script src="Scripts/Mobile_JavaScript.js"></script>
+</body>
+</html>
